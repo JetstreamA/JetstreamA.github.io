@@ -76,7 +76,7 @@ body{
 
 
 .izquierda{
-    background-image: url(/JetstreamA.github.io/imagenes/baderaturquia.webp);
+    background-image: url(imagenes/baderaturquia.webp);
     background: size 50px;
     background-color: rgba(229,3,17,255);
     background-position-x: -90px;
@@ -119,7 +119,7 @@ body{
     height: 1400px;
     float: left;
     box-shadow: 20px 15px 0 grey;
-    background-image: url(/JetstreamA.github.io/imagenes/banderatailandia.jpg);
+    background-image: url(imagenes/banderatailandia.jpg);
     background-position: center;
     background-size: contain;
     border: 2px solid black;
