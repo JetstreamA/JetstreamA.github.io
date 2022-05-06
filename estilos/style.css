@@ -3,7 +3,7 @@
 }
 
 html{
-    background-image: url(https://img.freepik.com/vector-gratis/ilustracion-mapa-mundo-banderas-todos-paises_37674-7.jpg?w=2000);
+    background: url(https://img.freepik.com/vector-gratis/ilustracion-mapa-mundo-banderas-todos-paises_37674-7.jpg?w=2000);
     margin: auto;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -76,7 +76,7 @@ body{
 
 
 .izquierda{
-    background-image: url(imagenes/baderaturquia.webp);
+    background-image: url(https://www.banderas-mundo.es/data/flags/w580/tr.png);
     background: size 50px;
     background-color: rgba(229,3,17,255);
     background-position-x: -90px;
@@ -119,7 +119,7 @@ body{
     height: 1400px;
     float: left;
     box-shadow: 20px 15px 0 grey;
-    background-image: url(imagenes/banderatailandia.jpg);
+    background-image: url(https://m.media-amazon.com/images/I/61+xE6rYpuL._AC_SY879_.jpg);
     background-position: center;
     background-size: contain;
     border: 2px solid black;
@@ -156,8 +156,7 @@ body{
     border-bottom-right-radius: 20px;
     overflow: hidden;
     border: 2px solid black;
-    background-image: url(/JetstreamA.github.io/imagenes/banderachina.jpg);
-    background-image: ;
+    background-image: url(https://media.istockphoto.com/vectors/flat-china-flag-vector-vector-id540402402?b=1&k=6&m=540402402&s=170667a&w=0&h=_Tc2j-RA3AdCqA51Vl4N9nj8nBJ2AZg1iJNZcn7FdH4=);
     background-repeat: no-repeat;
     background-size: contain ;
     background-color: rgba(237,30,38,255);
@@ -189,7 +188,7 @@ table{
 }
 
 caption{
-    background-image: url(/JetstreamA.github.io/imagenes/fondohorizontal.jpeg);
+    background-image: url(https://images.vexels.com/media/users/3/157177/raw/34e34d89cb16ffed20ce130970cbe923-diseno-de-fondo-de-rombo-naranja.jpg);
     border: 3px solid goldenrod;
     font-size: xx-large;
     font-family: 'Bebas Neue', cursive;
@@ -228,5 +227,5 @@ footer p{
 footer img{
     width: 30px;
     padding: 10px;
-    margin-left: 15px;
+    margin
 }
