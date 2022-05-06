@@ -1,28 +1,36 @@
 *{
-    color: black;
     margin: 0;
 }
 
-.body{
-    width: 1000px;
-    width: 1000px;
+html{
+    background: url(/JetstreamA.github.io/imagenes/mapadepaises.webp);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(163, 228, 228);
+}
+
+body{
+    width: 1500px;
+    opacity: 1;
 }
 
 .encabezado{
     text-align: center;
     padding: 15px;
-    font-size: x-large;
+    font-size: 37px;
     margin: 0 30%;
     background-color: brown;
     border-radius: 1cm;
     border-style: solid;
-    border-color: black
+    border: 5px ridge darkorange;
+    font-family:'Bebas Neue', cursive;
 }
 
 .menu{
     text-align: center;
-    border-style: ridge;
-    border-color: black;
+    border-color: darkorange;
+    border: 5px ridge darkorange;
     border-radius: 20px;
     margin: 2px;
     background-color: brown;
@@ -39,34 +47,83 @@
     padding: 15px;
     text-decoration: none;
     border-radius: 20px;
+    color: black;
 }
 
 .menu li{
-    text-align: center;
     display: inline-block;
+    
 }
 
-.izquierda{
-    background-color: blueviolet;
-    width: 500px;
-    float: left;
+.mapa-asia{
+    margin: 20px 26%;
+    box-shadow: 10px 10px 0 grey;
 }
+
+.continente-asiatico{
+    text-align: justify;
+    margin: 20px 2cm 20px;
+    padding: 20px;
+    font-size: larger;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oleo Script', cursive;
+    background-color: aqua;
+    margin-bottom: 1cm;
+    box-shadow: 20px 15px 0 grey;
+    border-radius: 20px;
+    border: 5px ridge darkorange;
+}
+
+
+.izquierda{
+    background-image: url(/JetstreamA.github.io/imagenes/baderaturquia.webp);
+    background: size 50px;
+    background-color: rgba(229,3,17,255);
+    background-position-x: -90px;
+    background-repeat: no-repeat;
+    width: 495px;
+    height: 1152px;
+    float: left;
+    box-shadow: 20px 15px 0 grey;
+    padding-bottom: 248px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+    
+}
+
 
 .titulo-turquia{
     text-align: center;
     font-size: xx-large;
     margin-bottom: 15px;
+    color: darkorange;
 }
 
 .turquia{
     margin: 15px 15px;
     font-size: large;
+    font-family: 'Lobster', cursive;
+    color:black;
+}
+
+.mapaT{
+    width: 450px;
+    margin: 15px 10px;
 }
 
 .centro{
     background-color: chartreuse;
-    width: 500px;
+    width: 503px;
+    height: 1400px;
     float: left;
+    box-shadow: 20px 15px 0 grey;
+    background-image: url(/JetstreamA.github.io/imagenes/banderatailandia.jpg);
+    background-position: center;
+    background-size: contain;
+    border: 2px solid black;
+    overflow: hidden;
 }
 
 .tailandia{
@@ -74,17 +131,35 @@
     font-size: xx-large;
     text-decoration: underline;
     margin-bottom: 15px;
+    color: darkorange;
 }
 
 .texto-tailandia{
     margin: 15px 15px;
     font-size: large;
+    font-family: 'Lobster', cursive;
+}
+
+.mapatai{
+    width:450px;
+    margin: 15px 20px;
 }
 
 .derecha{
     background-color: aqua;
-    width: 500px;
+    width: 490px;
+    height: 1274px;
     float: right;
+    box-shadow: 20px 15px 0 grey;
+    padding-bottom: 126px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    border: 2px solid black;
+    background-image: url(/JetstreamA.github.io/imagenes/banderachina.jpg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-color: rgba(237,30,38,255);
 }
 
 .china{
@@ -92,9 +167,65 @@
     font-size: xx-large;
     text-decoration: underline;
     margin: 15px 0 15px 0;
+    color: darkorange;
 }
 
 .texto-china{
     margin: 15px 15px;
     font-size: large;
+    font-family: 'Lobster', cursive;
+}
+
+.mapachina{
+    width: 450px;
+    margin: 15px 10px
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 2cm;
+}
+
+caption{
+    background-image: url(/JetstreamA.github.io/imagenes/fondohorizontal.jpeg);
+    border: 3px solid goldenrod;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+}
+
+tr,td{
+    border: 3px solid goldenrod;
+    background-color:brown ;
+    width: 15%;
+    text-align: center;
+    font-size: large;
+}
+
+.fila1 td{
+    font-size: x-large;
+    background-color: rgb(0, 132, 255);
+}
+
+.conforman{
+    background-color: rgb(0, 132, 255);
+}
+
+.numeropaises{
+    background-color: rgb(0, 132, 255);
+}
+
+footer{
+    margin: 2cm 0 0 0; 
+    background-color: lightskyblue ;
+}
+
+footer p{
+    margin: 15px 0 0 20px;
+}
+
+footer img{
+    width: 30px;
+    padding: 10px;
+    margin-left: 15px;
 }
