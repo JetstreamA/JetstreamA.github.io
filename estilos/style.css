@@ -3,7 +3,7 @@
 }
 
 html{
-    background: url(/JetstreamA.github.io/imagenes/mapadepaises.webp);
+    background-image: url(https://img.freepik.com/vector-gratis/ilustracion-mapa-mundo-banderas-todos-paises_37674-7.jpg?w=2000);
     margin: auto;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -157,6 +157,7 @@ body{
     overflow: hidden;
     border: 2px solid black;
     background-image: url(/JetstreamA.github.io/imagenes/banderachina.jpg);
+    background-image: ;
     background-repeat: no-repeat;
     background-size: contain ;
     background-color: rgba(237,30,38,255);
