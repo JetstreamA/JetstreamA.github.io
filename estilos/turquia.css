@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+nav{
+    width: 380px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: coral;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu > li{
+    
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 10px 12px; 
+    background-color: coral;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a:hover{
+    background-color: coral;
+    color: bisque;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 15px;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.menu li ul li{
+    position: relative;
+}
+
+.principal h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: coral;
+    text-shadow: 5px 1px 5px white;
+    border: 5px ridge darkred;
+}
+
+.principal{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.topkapi{
+    position: relative;
+    display: inline-block;
+    display: block;
+}
+
+.secundario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    text-shadow: 2px 1px 10px white;
+}
+
+.fotos{
+    padding: 10px 20px 20px;
+    display: block;
+}
+
+img:hover{
+    opacity: .5;
+    transition: 1s;
+}
+
+footer{
+    background-color: coral;
+}

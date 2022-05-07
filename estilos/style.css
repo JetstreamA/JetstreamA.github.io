@@ -10,6 +10,36 @@ html{
     background-color: rgb(163, 228, 228);
 }
 
+ul{
+    list-style: none;
+}
+
+.menu li a{
+    display: block;
+    background-color: brown;
+}
+
+.menu li a:hover{
+    background-color: burlywood;
+    color: aliceblue;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 15px;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.menu li ul li{
+    position: relative;
+    background-color: brown;
+    border: 3px solid black;
+}
+*/
 body{
     width: 1500px;
     opacity: 1;
