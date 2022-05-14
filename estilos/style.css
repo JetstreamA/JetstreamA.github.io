@@ -3,42 +3,19 @@
 }
 
 html{
-    background: url(https://img.freepik.com/vector-gratis/ilustracion-mapa-mundo-banderas-todos-paises_37674-7.jpg?w=2000);
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: rgb(163, 228, 228);
+    background: url("/JetstreamA.github.io/imagenes/asia.jpg");
+    background-color: cadetblue;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-color: rgb(163, 228, 228);*/
 }
 
 ul{
     list-style: none;
 }
 
-.menu li a{
-    display: block;
-    background-color: brown;
-}
-
-.menu li a:hover{
-    background-color: burlywood;
-    color: aliceblue;
-}
-
-.menu li ul{
-    display: none;
-    position: absolute;
-    min-width: 15px;
-}
-
-.menu li:hover > ul{
-    display: block;
-}
-
-.menu li ul li{
-    position: relative;
-    background-color: brown;
-    border: 3px solid black;
-}
 */
 body{
     width: 1500px;
@@ -57,37 +34,65 @@ body{
     font-family:'Bebas Neue', cursive;
 }
 
-.menu{
-    text-align: center;
-    border-color: darkorange;
-    border: 5px ridge darkorange;
-    border-radius: 20px;
-    margin: 2px;
+nav{
+    margin: auto;
     background-color: brown;
+    border-radius: 10px;
+    width: 1500px;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 5px ridge darkorange;
+
 }
 
-.menu a:hover{
-    background-color: black;
-    color: aliceblue;
+ul{
+    list-style: none;
 }
 
-.menu a{
-    font-size: larger;
+.menu > li{
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 10px 12px; 
+    background-color: brown;
     display: block;
-    padding: 15px;
     text-decoration: none;
-    border-radius: 20px;
     color: black;
 }
 
+.menu li a:hover{
+    background-color: rgb(80, 255, 153);
+    color: bisque;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 15px;
+}
+
 .menu li{
-    display: inline-block;
-    
+    background-color: coral;
+}
+
+.menu li:hover{
+    background-color: coral;
+    color: bisque;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.menu li ul li{
+    position: relative;
 }
 
 .mapa-asia{
     margin: 20px 26%;
-    box-shadow: 10px 10px 0 grey;
+    box-shadow: 20px 20px 10px rgb(131, 53, 1);
 }
 
 .continente-asiatico{
@@ -97,9 +102,9 @@ body{
     font-size: larger;
     font-family: 'Dancing Script', cursive;
     font-family: 'Oleo Script', cursive;
-    background-color: aqua;
+    background-color: brown;
     margin-bottom: 1cm;
-    box-shadow: 20px 15px 0 grey;
+    box-shadow: 20px 20px 10px rgb(131, 53, 1);
     border-radius: 20px;
     border: 5px ridge darkorange;
 }
@@ -246,16 +251,51 @@ tr,td{
 }
 
 footer{
-    margin: 2cm 0 0 0; 
-    background-color: lightskyblue ;
+
+    background-color: rgb(126, 62, 62);
+    margin-right: 10px;
+    margin-top: 0.5cm;
+    border-top: 5px solid goldenrod;
+    border-left: 5px solid goldenrod;
+    border-right: 5px solid goldenrod;
+
 }
 
-footer p{
-    margin: 15px 0 0 20px;
+footer .creditos{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.telefono{
+    text-align:center;
+    padding: 5px;
+}
+
+.proyectos{
+    text-align: center;
+    padding: 5px;
+
 }
 
 footer img{
     width: 30px;
-    padding: 10px;
-    margin
+    padding: 5px;
+}
+
+footer img:hover{
+    filter: brightness(50%);
+}
+
+.correo{
+    text-align: center;
+    padding: 5px;
+}
+
+.redes p{
+    text-align: center;
+    padding: 5px;
+}
+
+.redes .feis{
+    margin-left: 700px;
 }

@@ -1,13 +1,13 @@
 *{
-    margin: 0;
+    margin:0
 }
 
 html{
-    background-image: url("/JetstreamA.github.io/imagenes/fondoturquia.jpg");
+    background-image:url("/JetstreamA.github.io/imagenes/tailandia.jpg") ;
     background-repeat: none;
     background-position: center;
-    background-size: cover;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 header{
@@ -80,100 +80,90 @@ ol{
 }
 
 section{
-    background-color:rgba(95, 158, 160, 0.863) ;
-    text-align: justify;
+    background-color: rgba(95, 158, 160, 0.897);
     margin-left: 25px;
+    width: 80%;
     margin-top: 15px;
+    text-align: justify;
     font-size: 20px;
-    width: 74%;
 }
 
 section h1{
-    margin-left: 30px;
-    margin-top: 15px;
+    margin-left: 50px;
+    color:firebrick ;
 }
 
 section h3{
-    margin-left: 1.5cm;
-    margin-top: 20px;
+    margin-left: 60px;
     text-decoration: underline;
+    color: firebrick;
+}
+
+h3{
+    background-color: burlywood;
+    width: 859px;
+    padding: 5px;
+    padding-left: 25px;
 }
 
 section p{
-    margin: 15px 40px 15px 60px;
+    margin: 10px 30px 20px 70px;
 }
 
-blockquote{
-    margin: 15px 40px 15px 60px;
+.templo{
+    margin: 10px 30px 10px 70px;
 }
 
-aside{
+.saludo{
+    width: 250px;
     float: right;
-    width: 360px;
+    margin-left: 20px;
+    margin-right: 25px;
 }
 
-aside > p{
-    margin-left: 0px;
-    text-align: center;
-    background-color:burlywood;
+.templotailandes{
     width: 350px;
+    float: right;
+    margin: 15px 10px 15px 20px;
 }
 
-.mapaturquia{
-    width: 350px;
-    margin-top: 0.5cm;
+.bailekhon{
+    width: 250px;
+    float: right;
+    margin: 0 25px 0 20px;
 }
 
-.bandera{
-    width: 340px;
-    margin-top: 3cm;
+.muaythai{
+    width: 250px;
+    float: left;
+    margin: 20px 25px 0 20px;
+}
+
+.derecha{
+    float: right;
+    width: 250px;
+    margin: 15px 15px 1cm 0;
+}
+
+.derecha .bandera{
+    width: 245px;
+    height: 170px;
+    margin-top: 2cm;
 }
 
 .emblema{
-    width: 340px;
-    margin-top: 3cm;
+    width: 245px;
+    margin-top: 2cm;
 }
 
-.arquitectura{
-    float: left;
-    width: 320px;
-    margin-top: 20px;
-    margin-left: 60px;
-    padding-right: 20px;
-}
-
-.literatura{
-    float: right;
-    width: 200px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.ciencia{
-    float: left;
-    width: 200px;
-    margin-top: 20px;
-    margin-left: 60px;
-    padding-right: 20px;
-}
-
-.deportes{
-    float: right;
-    width: 200px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-bottom: 15px;
+.derecha > p{
+    text-align: center;
 }
 
 footer{
     margin: 0.5cm 0 0 0; 
     background-color: rgb(126, 62, 62);
     padding: 10px;
-    margin: auto;
-    width: 1550px;
-    
 }
 
 footer .creditos{
@@ -214,3 +204,4 @@ footer img:hover{
 .redes .feis{
     margin-left: 740px;
 }
+

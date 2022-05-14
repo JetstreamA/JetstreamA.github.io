@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+nav{
+    margin: auto;
+    background-color: burlywood;
+    border-radius: 10px;
+    width: 1000px;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 5px darkred solid;
+
+}
+
+ol{
+    list-style: none;
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 10px 12px; 
+    background-color: burlywood;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a:hover{
+    background-color: rgb(80, 255, 153);
+    color: bisque;
+}
+
+.menu li ol{
+    display: none;
+    position: absolute;
+    min-width: 15px;
+}
+
+.menu li{
+    background-color: coral;
+}
+
+.menu li:hover{
+    background-color: coral;
+    color: bisque;
+}
+
+.menu li:hover > ol{
+    display: block;
+}
+
+.menu li ol li{
+    position: relative;
+}
+
+.principal h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: coral;
+    text-shadow: 5px 1px 5px white;
+    border: 5px ridge darkred;
+}
+
+.principal{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.topkapi{
+    position: relative;
+    display: inline-block;
+    display: block;
+}
+
+.secundario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    text-shadow: 2px 1px 10px white;
+}
+
+.fotos{
+    padding: 10px 20px 20px;
+    display: block;
+}
+
+img:hover{
+    opacity: .5;
+    transition: 1s;
+}
+
+footer{
+    background-color: coral;
+}
