@@ -3,17 +3,13 @@
 }
 
 html{
-    background: url(https://usercontent.one/wp/antropocene.it/wp-content/uploads/2017/05/Continente-Asiatico-1024x576.jpg?media=1652002815);
+    background: url('/JetstreamA.github.io/imagenes/asia.jpg');
     background-color: cadetblue;
     background-repeat: none;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     /*background-color: rgb(163, 228, 228);*/
-}
-
-.fondoA{
-
 }
 
 ul{
