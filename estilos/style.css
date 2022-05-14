@@ -3,13 +3,17 @@
 }
 
 html{
-    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fantropocene.it%2Fes%2F2017%2F05%2F16%2Fcontinente-asiatico%2F&psig=AOvVaw1ZDTLuIhKSFUUVsAR5dP1Y&ust=1652650814639000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJDb3pj63_cCFQAAAAAdAAAAABAE");
+    background: url(https://usercontent.one/wp/antropocene.it/wp-content/uploads/2017/05/Continente-Asiatico-1024x576.jpg?media=1652002815);
     background-color: cadetblue;
     background-repeat: none;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     /*background-color: rgb(163, 228, 228);*/
+}
+
+.fondoA{
+
 }
 
 ul{
