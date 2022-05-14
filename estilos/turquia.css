@@ -3,7 +3,7 @@
 }
 
 html{
-    background-image: url("/JetstreamA.github.io/imagenes/fondoturquia.jpg");
+    background-image: url(/JetstreamA.github.io/imagenes/fondoturquia.jpg);
     background-repeat: none;
     background-position: center;
     background-size: cover;
