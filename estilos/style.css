@@ -3,8 +3,7 @@
 }
 
 html{
-    background: url(https://usercontent.one/wp/antropocene.it/wp-content/uploads/2017/05/Continente-Asiatico-1024x576.jpg?media=1652002815);
-    
+    background-image: url(https://usercontent.one/wp/antropocene.it/wp-content/uploads/2017/05/Continente-Asiatico-1024x576.jpg?media=1652002815);
     background-repeat: none;
     background-position: center;
     background-size: cover;
