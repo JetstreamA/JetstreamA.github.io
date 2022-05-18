@@ -3,108 +3,31 @@
 }
 
 html{
-    background: url(https://fondosmil.com/fondo/44299.jpg) ;
-    background-repeat: none;
+    background-image: url(https://1.bp.blogspot.com/-feo9LaATa9A/TahngR3JLKI/AAAAAAAAcsc/JfON2fQTluk/s1600/texturas-textures-11.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
 }
 
 header{
     text-align: center;
     padding: 10px;
-    background-color: brown;
+    background-color: rgb(0, 255, 149);
     width: 30%;
     margin: auto;
     margin-bottom: 15px;
-    border: 5px goldenrod ridge;
+    border: 5px darkred ridge;
     border-radius: 20px;
     font-family:'Bebas Neue', cursive;
     font-size: 37px;
-}
-
-.introduccion{
-    width: 1000px;
-    background-color: brown;
-    margin: auto;
-    text-align: justify;
-    font-size: larger;
-    border: 5px ridge darkorange;
-    border-radius: 20px; 
-    box-shadow: 15px 15px 10px black;
-}
-
-.introduccion p{
-    margin: 15px 15px;
-}
-
-.topkapi h1{
-    width: 31.9%;
-    text-align: center;
-    font-size: xx-large;
-    background-color: darkorange;
-    margin: 40px;
-    margin-bottom: 0;
-
-}
-
-.topkapi p{
-    margin-top: 0;
-    width: 30%;
-    margin-left: 40px;
-    float: left;
-    background-color: brown;
-    text-align: justify;
-    font-size: larger;
-    padding: 15px;
-    box-shadow: 20px 20px 15px black;
-}
-
-.ruinas_efeso h1{
-    width: 28.4%;
-    text-align: center;
-    font-size: xx-large;
-    background-color: darkorange;
-    margin: auto;
-}
-
-.ruinas_efeso p{
-    width: 420px;
-    margin-left: 22px;
-    background-color: brown;
-    font-size: larger;
-    text-align: justify;
-    float: left;
-    margin-bottom: 3cm ;
-    padding: 15px;
-    box-shadow: 20px 20px 15px black;
-}
-
-.safranbolu h1{
-    width: 32%;
-    margin-top: 0;
-    margin-left: 1037px;
-    background-color: darkorange;
-    text-align: center;
-    font-size: xx-large;
-}
-
-.safranbolu p{
-    width: 30%;
-    margin-right: 40px;
-    float: right;
-    background-color: brown;
-    font-size: larger;
-    text-align: justify;
-    padding: 15px;
-    box-shadow: 20px 20px 15px black;
 }
 
 nav{
     margin: auto;
     background-color: burlywood;
     border-radius: 10px;
-    width: 1500px;
+    width: 1000px;
     font-size: x-large;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -156,6 +79,81 @@ ol{
     position: relative;
 }
 
+.intro{
+    width: 1500px;
+    margin: auto;
+    background-color: rgb(0, 255, 149);
+    text-align: justify;
+    border: 5px ridge goldenrod;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px black;
+}
+
+.intro p{
+    font-size: larger;
+    margin: 15px 35px;
+}
+
+.dolma > h1{
+    width: 27%;
+    margin-left: 80px;
+    background-color: rgb(0, 255, 149);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.dolma p{
+    margin-top: 0;
+    width: 25%;
+    margin-left: 80px;
+    background-color: brown;
+    text-align: justify;
+    font-size: larger;
+    display: flex;
+    float: left;
+    padding: 15px;
+    box-shadow: 20px 20px 10px black;
+}
+
+
+.kebab > h1{
+    width: 27%;
+    margin-left: 576px;
+    background-color: rgb(0, 255, 149);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.kebab p{
+    width: 25%;
+    margin-left: 70px;
+    background-color: brown;
+    font-size: larger;
+    text-align: justify;
+    margin-bottom: 3cm ;
+    display: flex;
+    box-shadow: 20px 20px 10px black;
+}
+
+.meze > h1{
+    width: 27%;
+    margin-left: 1072px;
+    background-color: rgb(0, 255, 149);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.meze p{
+    width: 25%;
+    margin-left: 70px;
+    background-color: brown;
+    font-size: larger;
+    text-align: justify;
+    margin-bottom: 3cm ;
+    display: flex;
+    box-shadow: 20px 20px 10px black;
+}
+
 .principal h1{
     text-align: center;
     font-size: xx-large;
@@ -183,9 +181,11 @@ ol{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: large;
+    font-size: x-large;
+    text-decoration: underline;
     text-shadow: 2px 1px 10px white;
-    background-color: brown;
+    background-color: burlywood;
+    border: 5px ridge darkred;
 }
 
 .fotos{
@@ -194,18 +194,15 @@ ol{
 }
 
 img:hover{
-    opacity: .5;
+    opacity: 0.7;
     transition: 1s;
-}
-
-footer{
-    background-color: coral;
 }
 
 footer{
     margin: 0.5cm 0 0 0; 
     background-color: rgb(126, 62, 62);
     padding: 10px;
+
 }
 
 footer .creditos{
@@ -244,5 +241,6 @@ footer img:hover{
 }
 
 .redes .feis{
-    margin-left: 740px;
+    margin-left: 735px;
 }
+

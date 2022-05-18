@@ -82,10 +82,11 @@ ol{
 section{
     background-color:rgba(95, 158, 160, 0.863) ;
     text-align: justify;
-    margin-left: 25px;
+    margin-left: 19px;
     margin-top: 15px;
     font-size: 20px;
     width: 74%;
+    border: 13px double goldenrod;
 }
 
 section h1{

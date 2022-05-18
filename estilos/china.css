@@ -13,7 +13,7 @@ html{
 header{
     text-align: center;
     padding: 10px;
-    background-color: cadetblue;
+    background-color:rgba(100, 148, 237, 0.76);
     width: 30%;
     margin: auto;
     margin-bottom: 15px;
@@ -31,7 +31,7 @@ nav{
     font-size: x-large;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    border: 5px darkred solid;
+    border: 5px ridge darkred;
 
 }
 
@@ -115,8 +115,10 @@ section .parrafo{
 }
 
 .derecha > p{
-    margin-left: 115px;
+    margin-left: 0px;
     text-align: center;
+    background-color: burlywood;
+    width: 340px;
 }
 
 .bandera{
