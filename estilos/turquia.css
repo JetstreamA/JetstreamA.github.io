@@ -92,11 +92,14 @@ section{
 section h1{
     margin-left: 30px;
     margin-top: 15px;
+    color:firebrick;
+    text-decoration: underline;
 }
 
 section h3{
     margin-left: 1.5cm;
     margin-top: 20px;
+    color:firebrick;
     text-decoration: underline;
 }
 
