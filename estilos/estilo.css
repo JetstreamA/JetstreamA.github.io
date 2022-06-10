@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+html{
+    background-color: black;
+
+}
+
+nav{
+    text-align: center;
+    font-size: x-large;
+}
+
+ul{
+    background-color: rgb(39, 39, 39);
+    width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+    border: 10px groove brown;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    background-color: rgb(39, 39, 39);
+    color: brown;
+}
+
+nav a:hover{
+    background-color: rgb(6, 150, 175);
+}
+
+p{
+    text-align: justify;
+    font-size: larger;
+    margin-left: 1cm;
+}
+
+section{
+    background-color: rgb(150, 125, 92);
+    width: 1400px;
+    margin: auto;
+    padding: 40px;
+    border-style: double ridge ;
+    border-color: brown;
+    border-width: 15px;
+}
+
+img{
+    margin-left: 340px;
+    outline: 7px ridge rgb(39, 39, 39);
+    box-shadow: 17px 17px 10px;
+}
+
+h1{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+footer{
+
+    background-color: rgb(150, 125, 92);
+    margin-top: 0.5cm;
+    border-top: 10px ridge brown;
+    border-left: 10px ridge brown;
+    border-right: 10px ridge brown;
+
+}
+
+footer .creditos{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.telefono{
+    text-align:center;
+    padding: 5px;
+}
+
+footer img{
+    width: 30px;
+    padding: 5px;
+}
+
+footer img:hover{
+    filter: brightness(50%);
+}
+
+.correo{
+    margin-left: 630px;
+    padding: 5px;
+}
+
+.redes p{
+    text-align: center;
+    padding: 5px;
+}
+
+.redes > .feis{
+
+}
