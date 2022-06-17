@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Square+Peg&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 60%;
+    background-color: burlywood;
+    background-image: url(https://previews.123rf.com/images/9george/9george1608/9george160800389/61775936-matem%C3%A1ticas-lineal-c%C3%ADrculo-de-la-educaci%C3%B3n-matem%C3%A1tica-de-fondo-con-parcelas-geom%C3%A9tricas-f%C3%B3rmulas-y-c.jpg);
+}
+
+ul{
+    text-align: center;
+    font-size: x-large;
+    list-style: none;
+}
+
+ul{
+    background-color: rgb(39, 39, 39);
+    margin: auto;
+    border-radius: 15px;
+    border: 10px groove brown;
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 15px;
+}
+
+.menu li{
+    background-color: blue;
+}
+
+.menu li:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+.menu li:hover >ul{
+    display: block;
+}
+
+.menu li ul li{
+    position: relative;
+}
+
+ul a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    background-color: rgb(39, 39, 39);
+    color: brown;
+}
+
+ul a:hover{
+    background-color: rgb(6, 150, 175);
+}
+
+section{
+    margin: auto;
+    width: 1400px;
+    background-color: brown;
+    border: 15px double;
+}
+
+p{
+    font-size: x-large;
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    /* Sirven para centrar las figuras */
+    align-items: center;  
+    justify-content: center;
+    /* Esta unidad esta basada en el alto de vista de la ventana */
+    height: 60vh;
+    padding: 15px;
+    border: 1px solid darkgray;
+}
+
+.calculadora{
+    display: flex;
+    /* Se acomode en columnas */
+    flex-direction: column;
+    width: 500px;
+    /* 1 rem = 16puntos */
+    font-size: 2.0rem;
+    border: 1px solid rgb(12, 56, 112);
+    background-color: gray;
+    border: 20px;
+    border-style: double ridge;
+    box-shadow: 15px 15px 5px;
+}
+
+.resultado{
+    padding: 25px 15px;
+    width: 100%;
+    text-align: right;
+    border: 5px solid rgb(28, 96, 136);
+    /* Define qué se debe mostrar cuando el contenido se desborda */
+    overflow-x: auto;
+    background-color: white;
+}
+
+.keypad{
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
+.numeros{
+    display: flex;
+    width: 100%;
+    /* Hace que permanezcan en una misma línea o pueden fluir en varias líneas */
+    flex-wrap: wrap;
+}
+
+.boton{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(15, 143, 182);
+}
+
+.boton:hover{
+    filter: brightness(80%);
+    transition: filter .25s;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.largo{
+    width: 50%;
+    background: rgb(4, 22, 43);
+}
+
+.negro{
+    font-weight: 500;
+}
+
+.amarillo{
+    background: rgb(7, 123, 177);
+}
+
+h1{
+    text-align: center;
+    color: rgb(14, 79, 122);
+    padding: 5px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+
+    background-color: rgb(150, 125, 92);
+    font-size: xx-small;
+    margin-top: 0.5cm;
+    border-top: 10px ridge brown;
+    border-left: 10px ridge brown;
+    border-right: 10px ridge brown;
+
+}
+
+footer .creditos{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.telefono{
+    text-align:center;
+    padding: 5px;
+}
+
+footer img{
+    width: 40px;
+    margin: auto;
+    padding: 5px;
+}
+
+footer img:hover{
+    filter: brightness(50%);
+}
+
+.correo{
+    margin: auto;
+    padding: 5px;
+}
+
+.redes p{
+    text-align: center;
+    padding: 5px;
+}
+
+.redes > .feis{
+    margin-left: 740px;
+    width: 80px;
+}

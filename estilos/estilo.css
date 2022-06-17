@@ -7,24 +7,58 @@ html{
 
 }
 
-nav{
+ul{
     text-align: center;
     font-size: x-large;
+    list-style: none;
 }
 
 ul{
     background-color: rgb(39, 39, 39);
-    width: 1000px;
+    padding-right: 30px;
     margin: auto;
     border-radius: 15px;
     border: 10px groove brown;
 }
 
-nav li{
+.menu > li{
     display: inline-block;
 }
 
-nav a{
+.menu li a{
+    display: block;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 15px;
+}
+
+.menu li{
+    background-color: blue;
+}
+
+.menu li:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+.menu li:hover >ul{
+    display: block;
+}
+
+.menu li ul li{
+    position: relative;
+}
+
+ul a{
     text-decoration: none;
     display: block;
     padding: 20px;
@@ -32,14 +66,16 @@ nav a{
     color: brown;
 }
 
-nav a:hover{
+ul a:hover{
     background-color: rgb(6, 150, 175);
 }
 
-p{
+section > p{
     text-align: justify;
     font-size: larger;
     margin-left: 1cm;
+    color:rgb(48, 66, 13);
+    font-family: cursive;
 }
 
 section{
@@ -52,7 +88,7 @@ section{
     border-width: 15px;
 }
 
-img{
+.imgJ{
     margin-left: 340px;
     outline: 7px ridge rgb(39, 39, 39);
     box-shadow: 17px 17px 10px;
@@ -61,12 +97,16 @@ img{
 h1{
     font-size: xx-large;
     text-decoration: underline;
+    color: rgb(38, 50, 155);
+    lighting-color: aqua;
+    text-decoration-style: double;
 }
 
 footer{
 
     background-color: rgb(150, 125, 92);
     margin-top: 0.5cm;
+    font-size: 20px;
     border-top: 10px ridge brown;
     border-left: 10px ridge brown;
     border-right: 10px ridge brown;
@@ -79,7 +119,7 @@ footer .creditos{
 }
 
 .telefono{
-    text-align:center;
+    text-align: center;
     padding: 5px;
 }
 
@@ -93,7 +133,7 @@ footer img:hover{
 }
 
 .correo{
-    margin-left: 630px;
+    text-align: center;
     padding: 5px;
 }
 
