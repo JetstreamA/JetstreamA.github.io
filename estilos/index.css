@@ -1,0 +1,40 @@
+html{
+    /*imagen de fondo*/
+    background-color: #FFCC91;
+}
+
+section{
+    width: 700px;
+    background-color: #267799;
+    margin: auto;
+    border: 5px solid #996C39;
+    box-shadow: 10px 15px 5px;
+}
+
+h1, h3{
+    text-align: center;
+    padding: 20px;
+    background-color: #5ABCE6;
+    box-shadow: 0px 5px 0px ;
+}
+
+input{
+    margin-left: 20px;
+}
+
+button{
+    margin: 0 29%;
+}
+
+p{
+    margin: 20px 1cm 20px 1cm;
+    font-size: larger;
+}
+
+.icono{
+    margin-left: 47%;
+}
+
+.icono a img{
+    width: 30px;
+}
